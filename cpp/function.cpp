@@ -35,9 +35,15 @@
 #include<iostream>
 using namespace std;
 int evenodd(int n){
-    
+    if(n%2==0){
+        cout<<n<<"is a even number "<<endl;
+    }
+    else{
+        cout<<n<<" is a odd number "<<endl;
+    }
+    return n;
 }
 int main(){
-
-    return 0;
+evenodd(5);
+return 0;
 }
