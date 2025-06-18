@@ -32,18 +32,38 @@
 // }
 
 // Write a function if the number is odd or even 
-#include<iostream>
-using namespace std;
-int evenodd(int n){
-    if(n%2==0){
-        cout<<n<<"is a even number "<<endl;
-    }
-    else{
-        cout<<n<<" is a odd number "<<endl;
-    }
-    return n;
-}
-int main(){
-evenodd(5);
-return 0;
-}
+// #include<iostream>
+// using namespace std;
+// int evenodd(int n){
+//     if(n%2==0){
+//         cout<<n<<"is a even number "<<endl;
+//     }
+//     else{
+//         cout<<n<<" is a odd number "<<endl;
+//     }
+//     return n;
+// }
+// int main(){
+// evenodd(5);
+// return 0;
+// }
+
+
+// Write a function to print factorial of a number , n 
+// #include<iostream>
+// using namespace std ;
+// int factorialFunction(int n ){
+//     int fact = 1;
+//     for(int i=1;i<=n;i++){
+//         fact=fact*i;
+//         // cout<<fact<<endl;
+//     }
+//     return fact;
+// }
+// int main (){
+//     cout<<factorialFunction(3);
+//     return 0;
+// }
+
+
+// Write a function to print if the number prime number . 
