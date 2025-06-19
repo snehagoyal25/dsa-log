@@ -67,3 +67,51 @@
 
 
 // Write a function to print if the number prime number . 
+// #include<iostream>
+// using namespace std;
+
+// bool isPrime(int n){
+//     if (n==1){
+//         return false ; 
+//     }
+
+//     for(int i=2;i<n;i++){
+//         if(n%i==0){   // non-prime numbers
+//             return false ;
+//         }
+//     }
+//     return true ;
+// }
+// int main(){
+//     cout<<isPrime(7)<<endl; //1 -> true
+//     cout<<isPrime(9)<<endl; //0 -> false 
+//     return 0;
+// }
+
+// Function overloading 
+// Multiple funtions with same name but different parameters .
+
+// #include<iostream>
+// using namespace std;
+
+// int sum(int a,int b){
+//     cout<<"sum = "<<a+b<<endl;
+//     return a+b;
+// }
+
+// int sum (double a , double b){
+//     cout<<"sum = "<<a+b<<endl;
+//     return a+b;
+// }
+
+// int sum(int a,int b,int c){
+//     cout<<"sum = "<<a+b+c<<endl;
+//     return a+b+c;
+// }
+// int main(){
+
+//     sum(5,6);
+//     sum(1.5,2.5);
+//     sum(2,3,4);
+//     return 0;
+// }
