@@ -22,4 +22,31 @@
 // }
 
 
-// Pointers = 
+// Pointers => A special variable that stores address of another variable .
+// int *ptr = &a;
+// float *ptr = &b;
+// char *ptr = &c;
+// int ** ptr2 = &ptr;
+
+// Pointers take 8 bytes of memory space even it is a integer or float .
+
+// #include<iostream>
+// using namespace std;
+// int main (){
+//     int a = 6;
+//     float pi =3.14;
+//     int *ptr =&a;
+//     float *ptr2 = &pi;
+//     cout<<&a<<" = "<<ptr<<endl;   // 0xe970fffdcc = 0xe970fffdcc
+//     cout<<&pi<<" = "<<ptr2<<endl; // 0xe970fffdc8 = 0xe970fffdc8
+
+//     int **pptr = &ptr;
+//     // stores address of pointer to pointer 
+//     cout<<pptr<<" = "<<&ptr<<endl; // 0xe970fffdc0 = 0xe970fffdc0 
+
+//     cout<<sizeof(ptr)<<endl;  // 8 bytes
+//     cout<<sizeof(ptr2)<<endl; // 8 bytes
+//     return 0;
+// }
+
+// Dereference operator 
