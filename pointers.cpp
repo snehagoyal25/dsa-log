@@ -90,3 +90,41 @@
 
 
 // Passing Arguments .
+// Pass by value = When parameter is a copy of actual argument variable in memory 
+// Pass by reference (pass by address) = When we pass the reference of argument to the function 
+
+// Pass by value 
+// original addresss k andr changes reflect nhi honge 
+
+// #include<iostream>
+// using namespace std;
+
+// void changeA(int a){
+//     a=20;
+//     cout<<a<<endl; // 20
+// }
+// int main(){
+//     int a = 10;
+//     changeA(a);
+//     cout<<a<<endl; // 10
+//     return 0;
+// }
+
+// Pass by reference -> 2 types = a(: by pointers b(: by reference variables 
+// original addresss k andr changes reflect honge 
+
+#include<iostream>
+using namespace std;
+ // pass by reference using pointers 
+
+void changeA(int *ptr){
+    *ptr = 20;
+    cout<<*ptr<<endl;   // 20
+}
+int main(){
+   int a = 10;
+   changeA(&a);
+   cout<<a<<endl;      // 20
+    return 0;
+}
+
