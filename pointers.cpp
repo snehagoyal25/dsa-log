@@ -49,4 +49,22 @@
 //     return 0;
 // }
 
-// Dereference operator 
+// Dereference operator = Gets the value of the variable pointed by any pointer. 
+// * operator lets us directly access and modify the value of variable 
+
+#include<iostream>
+using namespace std;
+int main(){
+    int  a = 10;
+    int *ptr = &a;
+
+    cout<<ptr<<endl;   // 0xe63efffaa4
+    cout<<*ptr<<endl;  // 10
+    cout<<*(&a)<<endl; // 10
+    // can change the value also 
+
+    *ptr = 20;
+    cout<<a<<endl; // 20
+    return 0;
+}
+
