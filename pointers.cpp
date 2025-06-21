@@ -52,19 +52,41 @@
 // Dereference operator = Gets the value of the variable pointed by any pointer. 
 // * operator lets us directly access and modify the value of variable 
 
-#include<iostream>
-using namespace std;
-int main(){
-    int  a = 10;
-    int *ptr = &a;
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int  a = 10;
+//     int *ptr = &a;
 
-    cout<<ptr<<endl;   // 0xe63efffaa4
-    cout<<*ptr<<endl;  // 10
-    cout<<*(&a)<<endl; // 10
-    // can change the value also 
+//     cout<<ptr<<endl;   // 0xe63efffaa4
+//     cout<<*ptr<<endl;  // 10
+//     cout<<*(&a)<<endl; // 10
+//     // can change the value also 
 
-    *ptr = 20;
-    cout<<a<<endl; // 20
-    return 0;
-}
+//     *ptr = 20;
+//     cout<<a<<endl; // 20
+//     return 0;
+// }
 
+// Null pointer 
+// We assign NULL value to a pointer to show that it  doesnot point to any location .
+// Dereferencing Null pointer is not possible as it results in the error . It is called as segmentation fault 
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int *ptr;
+//     cout<<ptr<<endl; // any garbage address will print out 
+
+     // If assigning null then 0 will be print out as address
+//     int *ptr2 = NULL;
+//     cout<<ptr2<<endl;
+
+//     // Dereferencing : code execution is stopped after this 
+//     cout<<*ptr2<<endl;
+//     cout<<"Hey thereee"; // not printed .
+//     return 0;
+// }
+
+
+// Passing Arguments .
