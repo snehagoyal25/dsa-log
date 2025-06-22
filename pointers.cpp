@@ -113,18 +113,42 @@
 // Pass by reference -> 2 types = a(: by pointers b(: by reference variables 
 // original addresss k andr changes reflect honge 
 
+// #include<iostream>
+// using namespace std;
+//  // pass by reference using pointers 
+
+// void changeA(int *ptr){
+//     *ptr = 20;
+//     cout<<*ptr<<endl;   // 20
+// }
+// int main(){
+//    int a = 10;
+//    changeA(&a);
+//    cout<<a<<endl;      // 20
+//     return 0;
+// }
+
+// Pass by reference using reference variable 
+// Reference variable = reference variable is an alternate name (alias) of already existing variable .
+
 #include<iostream>
 using namespace std;
- // pass by reference using pointers 
 
-void changeA(int *ptr){
-    *ptr = 20;
-    cout<<*ptr<<endl;   // 20
+void changeA( int &a){  // & is also used as the reference variable .
+    a=20;
+    cout<<a<<endl; // 20
 }
 int main(){
-   int a = 10;
-   changeA(&a);
-   cout<<a<<endl;      // 20
+    int c = 10;
+    // int a =10;
+    // int  &b = a;
+    // b =25;
+    // cout<<b<<endl;  // 25
+    // cout<<a<<endl;  // 25
+
+
+// Here a and c are in the same memory location . 
+    changeA(c);
+    cout<<c<<endl; // 20
     return 0;
 }
-
