@@ -1,6 +1,7 @@
 // // Arrays are passesd by reference 
 // // void printArr(int arr[]){...........} // same 
 // // void printArr(int *arr){............} // same 
+// Array name can be converted to pointer in cpp. 
 
 // #include<iostream>
 // using namespace std ;
