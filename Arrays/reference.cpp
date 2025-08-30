@@ -1,6 +1,6 @@
-// // Arrays are passesd by reference 
-// // void printArr(int arr[]){...........} // same 
-// // void printArr(int *arr){............} // same 
+// // Arrays are passesd by reference  // these are not passed by values  
+// // void printArr(int arr[]){...........} // same    *arr = arr[0]
+// // void printArr(int *arr){............} // same    *(arr+1) = arr[1]
 // Array name can be converted to pointer in cpp. 
 
 // #include<iostream>
@@ -13,6 +13,7 @@
 // void func2(int *ptr[]){ // array as an argument 
 //     ptr[0] = 1000;
 // }
+
 
 // int main(){
 //     int arr[] = {1,2,3,4,5};
