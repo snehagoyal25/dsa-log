@@ -23,3 +23,5 @@ int main(){
 
 // Time complexity = It is the relation between the input size(that is the array size) and the number of operation performed.
 //O(n) -> as i increases the operation also increases that is in the linear fashion
+
+// space complexity = It is the relation between the input size(that is the array size) and the extra space that is required by the program
