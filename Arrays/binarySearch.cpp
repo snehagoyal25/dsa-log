@@ -32,3 +32,4 @@ int main(){
 
 // Time and space complexity 
 // Time complxity - relation b/w input size(here is n)  and no. of operation(how many times id the loop running).
+// O(log n) = This is good time complexity as compared to linear search 
