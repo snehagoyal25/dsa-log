@@ -8,7 +8,7 @@
 using namespace std;
 
 void maxSubarraySum(int *arr,int n){
-    int maxSum; // we should not initialize the value of maxSum as it can be less than 0.
+    int maxSum = INT_MIN; // we should not initialize the value of maxSum as it can be less than 0.
     for(int start=0;start<n;start++){
         for(int end=start;end<n;end++){
             int currentSum = 0 ;
